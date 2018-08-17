@@ -1,0 +1,29 @@
+{
+  "name": "lodown-dejatrudeaux",
+  "version": "1.0.1",
+  "description": "An npm functional programming library project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DejaTrudeaux/lodown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DejaTrudeaux/lodown/issues"
+  },
+  "homepage": "https://github.com/DejaTrudeaux/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  }
+}
